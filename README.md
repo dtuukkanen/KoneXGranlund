@@ -1,6 +1,6 @@
 # KoneXGranlund
 
-# Bundler
-Bundleria varte asensin: npm install --global rollup
-
+# Requirements
+```npm install --global rollup```
+```npm i @thatopen/components```
 
