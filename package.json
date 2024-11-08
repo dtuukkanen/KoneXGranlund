@@ -1,13 +1,12 @@
 {
   "dependencies": {
-    "@thatopen/components": "^2.3.16",
     "@thatopen/ui": "^2.3.1",
     "@types/stats.js": "^0.17.3",
     "requirejs": "^2.3.7",
     "stats.js": "^0.17.0",
     "systemjs": "^6.15.1",
     "three": "^0.135.0",
-    "web-ifc": "^0.0.61",
+    "web-ifc": "^0.0.39",
     "web-ifc-viewer": "^1.0.218"
   },
   "devDependencies": {

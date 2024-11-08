@@ -2,6 +2,8 @@ import { IfcViewerAPI } from 'web-ifc-viewer';
 
 const container = document.getElementById('viewer-container');
 const viewer = new IfcViewerAPI({ container });
+
+viewer.IFC.loader.ifcManager.setWasmPath("/src/");
 viewer.axes.setAxes();
 viewer.grid.setGrid();
 
