@@ -115,6 +115,9 @@ world.scene.three.add(cube);
   Finally, we will make the camera look at the cube:
 */
 
+// Position the cube above the ground plane
+cube.position.set(0, 1, 0);
+
 world.camera.controls.setLookAt(3, 3, 3, 0, 0, 0);
 
 /* MD
